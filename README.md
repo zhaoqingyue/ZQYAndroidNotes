@@ -10,7 +10,7 @@
 
 **3. Android主流图片加载库**
 - Universal-Image-Loader
-- Picasso
+- [Picasso](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/picture_loading_lib/Android_Picasso图片加载.md)
 - Fresco
 - Glide
 
