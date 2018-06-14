@@ -11,11 +11,11 @@
 - Glide
 - Fresco
 
-![image](http://note.youdao.com/favicon.ico)
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/img/image_load0.png)
 
 **2. 图片加载库- 对比**
 
-![image](http://note.youdao.com/favicon.ico)
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/img/image_load1.png)
 
 **3. 主流图片加载库的Github地址**
 
