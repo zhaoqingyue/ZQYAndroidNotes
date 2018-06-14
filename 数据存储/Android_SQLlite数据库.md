@@ -2,7 +2,7 @@
 
 ----在Android开发中，主要的数据存储有5种，具体如下：
 
-![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/storage_method/storage_method.png)
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/storage_method.png)
 
 **1. SQLlite数据库简介**
 

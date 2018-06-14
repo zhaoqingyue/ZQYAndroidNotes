@@ -23,7 +23,7 @@
 - 消息发布者（广播发布者）
 - 消息中心（AMS，即Activity Manager Service）
 
-![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/component/img/broadcast0.png)
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/broadcast0.png)
 
 原理描述：
 
@@ -37,7 +37,7 @@
 
 **5. 使用流程**
 
-![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/component/img/broadcast1.png)
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/broadcast1.png)
 
 （1）**自定义广播接收者BroadcastReceiver**
 - 继承BroadcastReceivre基类
@@ -159,7 +159,7 @@ B. Activity生命周期的方法是成对出现的：
 
 **两种注册方式的区别**
 
-![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/component/img/broadcast2.png)
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/broadcast2.png)
 
 **（3）广播发送者向AMS发送广播**
 

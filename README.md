@@ -3,25 +3,26 @@
 **1. Android四大组件**
 - Activity
 - Service
-- [BroadcastReceiver](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/component/BroadcastReceiver.md)
+- [BroadcastReceiver](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/BroadcastReceiver.md)
 - ContentProvideer
 
 **2. Handler**
+- [Android Handler解析](https://github.com/zhaoqingyue/ZQYAndroidNotes/tree/master/Handler)
 
 **3. Android主流图片加载库**
 - Universal-Image-Loader
-- [Picasso](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/picture_loading_lib/Android_Picasso图片加载.md)
+- [Picasso](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_Picasso%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
 - Fresco
-- Glide
+- [Glide](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_Glide%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
 
 **4. 网络请求**
 - Android Async Http
 - Volley
 - OkHttp
-- Retrofit
+- [Retrofit](https://github.com/zhaoqingyue/ZQYAndroidNotes/tree/master/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6)
 
 **5. 数据存储**
-- [SQLlite数据库](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/storage_method/Android_SQLlite%E6%95%B0%E6%8D%AE%E5%BA%93.md)
+- [SQLlite数据库](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/Android_SQLlite%E6%95%B0%E6%8D%AE%E5%BA%93.md)
 - ContentProvider
 - SharedPreferences
 - 文件存储
@@ -43,7 +44,10 @@
 - Otto
 
 **9. 响应式编程**
-- RxBus
-- RxJava
-- RxAndroid
-- RxBinding
+- [RxBus](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxBus.md)
+- [RxJava](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxJava.md)
+- [RxJava2](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxJava2.md)
+- [RxAndroid](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxAndroid.md)
+- [RxBinding](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxBinding.md)
+- [RxPermissions](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxPermissions.md)
+- [RxLifecyle](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxLifecyle.md)
