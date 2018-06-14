@@ -30,7 +30,7 @@
 
 **6. 数据库**
 - OrmLite
-- GreenDAO
+- [GreenDAO](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93/GreenDao.md)
 
 
 **7. 依赖注入**
