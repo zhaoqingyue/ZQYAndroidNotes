@@ -1,10 +1,10 @@
 ### Android 学习笔记
 
 **1. Android四大组件**
-- Activity
-- Service
+- [Activity](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Activity.md)
 - [BroadcastReceiver](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/BroadcastReceiver.md)
-- ContentProvideer
+- [ContentProvideer](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/ContentProvideer.md)
+- [Service](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Service.md)
 
 **2. Handler**
 - [Android Handler解析](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Handler/Android%20Handler%E8%A7%A3%E6%9E%90.md)
@@ -12,8 +12,8 @@
 **3. Android主流图片加载库**
 - Universal-Image-Loader
 - [Picasso](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_Picasso%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
-- Fresco
 - [Glide](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_Glide%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
+- Fresco
 
 **4. 网络请求**
 - Android Async Http
