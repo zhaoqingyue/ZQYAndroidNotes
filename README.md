@@ -20,10 +20,17 @@
 - OkHttp
 - Retrofit
 
+**5. 数据存储**
+- SQLlite数据库
+- ContentProvider
+- SharedPreferences
+- 文件存储
+- 网络存储
+
 **6. 数据库**
 - OrmLite
 - GreenDAO
-- 
+
 
 **7. 依赖注入**
 - ButterKnife
