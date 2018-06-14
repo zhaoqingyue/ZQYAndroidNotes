@@ -178,3 +178,108 @@ B. 广播的类型
 - 粘性广播（Sticky Broadcast）
 - App应用内广播（Local Broadcast）
 
+具体说明如下：
+
+**a. 普通广播（Normal Broadcast）**
+
+----即开发者自定义 intent的广播（最常用）。发送广播使用如下：
+
+```
+Intent intent = new Intent();
+//对应BroadcastReceiver中intentFilter的action
+intent.setAction(BROADCAST_ACTION);
+//发送广播
+sendBroadcast(intent);
+```
+若被注册了的广播接收者中注册时intentFilter的action与上述匹配，则会接收此广播（即进行回调onReceive()）。如下mBroadcastReceiver则会接收上述广播。
+
+```
+<receiver 
+    //此广播接收者类是XXBroadcastReceiver
+    android:name=".XXBroadcastReceiver" >
+    //用于接收网络状态改变时发出的广播
+    <intent-filter>
+        <action android:name="BROADCAST_ACTION" />
+    </intent-filter>
+</receiver>
+
+```
+注意：若发送广播有相应权限，那么广播接收者也需要相应权限。
+
+**b. 系统广播（System Broadcast）**
+- Android中内置了多个系统广播：只要涉及到手机的基本操作（如开机、网络状态变化、拍照等等），都会发出相应的广播
+- 每个广播都有特定的Intent - Filter（包括具体的action），Android系统广播action如下：
+
+系统操作 | action
+---|---
+监听网络变化 | 	android.net.conn.CONNECTIVITY_CHANGE
+关闭或打开飞行模式 | Intent.ACTION_AIRPLANE_MODE_CHANGED
+充电时或电量发生变化 | Intent.ACTION_BATTERY_CHANGED
+电池电量低 | Intent.ACTION_BATTERY_LOW
+电池电量充足 | Intent.ACTION_BATTERY_OKAY
+当前设置被改变时(语言、方向) | Intent.ACTION_CONFIGURATION_CHANGED
+插入耳机 | Intent.ACTION_HEADSET_PLUG
+成功安装APK | Intent.ACTION_PACKAGE_ADDED
+成功删除APK | Intent.ACTION_PACKAGE_REMOVED
+成功更新APK | android.intent.action.PACKAGE_REPLACED
+屏幕被关闭 | Intent.ACTION_SCREEN_OFF
+屏幕被打开 | Intent.ACTION_SCREEN_ON
+屏幕锁屏 | Intent.ACTION_CLOSE_SYSTEM_DIALOGS
+系统启动完成 | Intent.ACTION_BOOT_COMPLETED
+关闭系统 | Intent.ACTION_SHUTDOWN
+重启设备 | Intent.ACTION_REBOOT
+
+注：当使用系统广播时，只需要在注册广播接收者时定义相关的action即可，并不需要手动发送广播，当系统有相关操作时会自动进行系统广播。
+
+**c. 有序广播（Ordered Broadcast）**
+
+- 定义
+
+----发送出去的广播被广播接收者按照先后顺序接收
+（有序是针对广播接收者而言的）
+
+- 广播接受者接收广播的顺序规则
+
+----同时面向静态和动态注册的广播接受者
+
+- [ ] 按照Priority属性值从大-小排序；
+- [ ] Priority属性相同者，动态注册的广播优先；
+
+- 特点
+
+- [ ] 接收广播按顺序接收
+- [ ] 先接收的广播接收者可以对广播进行截断，即后接收的广播接收者不再接收到此广播；
+- [ ] 先接收的广播接收者可以对广播进行修改，那么后接收的广播接收者将接收到被修改后的广播
+
+- 具体使用
+
+----有序广播的使用过程与普通广播非常类似，差异仅在于广播的发送方式：
+
+```
+sendOrderedBroadcast(intent);
+```
+
+**d. App应用内广播（Local Broadcast）**
+
+- 背景
+
+----Android中的广播可以跨App直接通信（exported对于有intent-filter情况下默认值为true）。
+
+- 冲突
+
+----可能出现的问题：
+- [ ] 其他App针对性发出与当前App intent-filter相匹配的广播，由此导致当前App不断接收广播并处理；
+- [ ] 其他App注册与当前App一致的intent-filter用于接收广播，获取广播具体信息；即会出现安全性 & 效率性的问题。
+
+- 解决方案
+
+----使用App应用内广播（Local Broadcast）
+
+- [ ] 注册广播时将exported属性设置为false，使得非本App内部发出的此广播不被接收；
+- [ ] 在广播发送和接收时，增设相应权限permission，用于权限验证；
+- [ ] 发送广播时指定该广播接收器所在的包名，此广播将只会发送到此包中的App内与之相匹配的有效广播接收器中。
+
+```
+// 通过intent.setPackage(packageName)指定报名
+intent.setPackage(packageName)
+```
