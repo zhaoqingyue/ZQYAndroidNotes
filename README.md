@@ -21,7 +21,7 @@
 - Retrofit
 
 **5. 数据存储**
-- SQLlite数据库
+- [SQLlite数据库](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/storage_method/Android_SQLlite%E6%95%B0%E6%8D%AE%E5%BA%93.md)
 - ContentProvider
 - SharedPreferences
 - 文件存储
