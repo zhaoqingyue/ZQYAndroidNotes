@@ -6,6 +6,12 @@
 - [ContentProvider](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/ContentProvider.md)
 - [Service](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Service.md)
 
+其它组件
+- [Application](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Application.md)
+- Context
+- Intent
+- Notification
+
 **2. Handler**
 - [Android Handler解析](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Handler/Android%20Handler%E8%A7%A3%E6%9E%90.md)
 
