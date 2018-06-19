@@ -7,8 +7,6 @@
 
 ![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/application0.png)
 
-![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/application1.png)
-
 - 说明：
 
 ----Application和Activity，Service一样，是android框架的一个系统组件。
@@ -75,8 +73,8 @@ public class MyApplication extends Application {
 **3. 方法介绍**
 
 Application方法执行顺序:
-![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/application3.png)
 
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/application3.png)
 
 
 （1）onCreate（）
