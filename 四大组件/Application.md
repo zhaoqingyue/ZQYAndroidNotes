@@ -5,7 +5,56 @@
 - 代表应用程序（即 Android App）的类，也属于Android中的一个系统组件；
 - 继承关系：继承自 ContextWarpper 类。
 
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/application0.png)
+
 ![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/application1.png)
+
+- 说明：
+
+----Application和Activity，Service一样，是android框架的一个系统组件。
+
+当android程序启动时，系统会创建一个 application对象，用来存储系统的一些信息。通常是不需要指定一个Application的，系统会自动创建。
+
+如果需要创建自己的Application，也很简单：创建一个类继承 Application，并在manifest的application标签中进行注册(只需要给Application标签增加个name属性把自己的 Application的名字定入即可)。
+
+**自定义Application：**
+
+```
+public class MyApplication extends Application { 
+    private static Context mContext; 
+    
+    private static MyApplication app;  
+      
+    public static MyApplication getInstance() {  
+        return app;  
+    }  
+    
+    @Override public void onCreate() { 
+        super.onCreate(); 
+        app = this;  
+        mContext = getApplicationContext(); 
+    } 
+    
+    public static Context getInstance() { 
+        return mContext; 
+        
+    } 
+}
+
+```
+
+**在AndroidManifest文件中指定自定义的Application**
+
+```
+ <application 
+    android:name=".MyApplication" 
+    android:allowBackup="true" 
+    android:icon="@mipmap/ic_launcher" 
+    android:label="@string/app_name" 
+    android:supportsRtl="true" 
+    android:theme="@style/AppTheme" />
+
+```
 
 **2. 特点**
 
@@ -24,6 +73,11 @@
 ----等于 Android App 的生命周期。Application 对象的生命周期是整个程序中最长的，等于Android App的生命周期。
 
 **3. 方法介绍**
+
+Application方法执行顺序:
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/img/application3.png)
+
+
 
 （1）onCreate（）
 
