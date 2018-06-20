@@ -320,3 +320,9 @@ public void onCreate() {
 ```
 
 （4）远程Service
+
+----具体请看：Android AIDL Service
+
+（5）IntentService
+
+----具体请看：Android IntentService
