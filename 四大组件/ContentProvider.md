@@ -66,6 +66,16 @@ content://com.example.app.provider/table/#
 
 ----进程间共享数据的本质是：添加、删除、查询 & 修改（更新）数据。
 
+ContentProvider中的抽象方法
+方法 | 描述
+---|---
+Uri insert(Uri, ContentValues) | 将数据插入到Uri指定位置
+Cursor query(Uri, String[], String, String[],  String) | 通过Uri进行查询，返回一个Cursor
+int update(Uri, ContentValues, String, String[]) | 更新Uri指定位置的数据
+int delete(Uri, String, String[])  | 删除Uri指定位置的数据
+boolean onCreate() | 初始化ContentProvider
+String getType(Uri) | 返回数据的MIME类型
+
 ```
 <-- 4个核心方法 -->
 public Uri insert(Uri uri, ContentValues values) 
