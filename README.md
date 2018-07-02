@@ -9,14 +9,14 @@
 **其它组件**
 - [Application](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Application.md)
 - Context
-- Intent
-- Notification
+- [Intent](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Intent.md)
+- [Notification](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Notification.md)
 
 **2. Handler**
 - [Android Handler解析](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Handler/Android%20Handler%E8%A7%A3%E6%9E%90.md)
 
 **3. Android主流图片加载库（[介绍](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93.md)）**
-- Universal-Image-Loader
+- [Universal-Image-Loader](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_UIL%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
 - [Picasso](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_Picasso%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
 - [Glide](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_Glide%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
 - Fresco
