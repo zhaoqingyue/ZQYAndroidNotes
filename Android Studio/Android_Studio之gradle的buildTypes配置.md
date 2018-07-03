@@ -53,7 +53,7 @@ android {
             // 是否是测试版本-true
             buildConfigField "boolean", "IS_TESTVERSION", "true"
             
-            //是否混淆
+            // 是否混淆
             minifyEnabled false
             
             // 去除无用的resource
