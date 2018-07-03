@@ -12,6 +12,10 @@
 - [Intent](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Intent.md)
 - [Notification](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/Notification.md)
 
+**2. Android控件**
+- [Webview](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%E6%8E%A7%E4%BB%B6/Android_Webview.md)
+
+
 **2. Handler**
 - [Android Handler解析](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Handler/Android%20Handler%E8%A7%A3%E6%9E%90.md)
 
@@ -46,7 +50,7 @@
 - RoboGuice
 
 **8. 事件总线**
-- EventBus
+- [EventBus](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF/EventBus.md)
 - Otto
 
 **9. 响应式编程**
@@ -57,6 +61,11 @@
 - [RxBinding](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxBinding.md)
 - [RxPermissions](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxPermissions.md)
 - [RxLifecyle](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxLifecyle.md)
+
+**Android Studio**
+- [Android Studio 快捷键-Win版本](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android%20Studio%20%E5%BF%AB%E6%8D%B7%E9%94%AE-Win%E7%89%88%E6%9C%AC.md)
+- [Android Studio gradle的buildTypes配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android_Studio%E4%B9%8Bgradle%E7%9A%84buildTypes%E9%85%8D%E7%BD%AE.md)
+
 
 **遇到的问题**
 - [解决ScrollView嵌套ListView问题](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/%E8%A7%A3%E5%86%B3ScrollView%E5%B5%8C%E5%A5%97ListView%E9%97%AE%E9%A2%98.md)
