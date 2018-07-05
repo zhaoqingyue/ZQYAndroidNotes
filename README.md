@@ -65,7 +65,9 @@
 **Android Studio**
 - [Android Studio 快捷键-Win版本](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android%20Studio%20%E5%BF%AB%E6%8D%B7%E9%94%AE-Win%E7%89%88%E6%9C%AC.md)
 - [Android Studio gradle的buildTypes配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android_Studio%E4%B9%8Bgradle%E7%9A%84buildTypes%E9%85%8D%E7%BD%AE.md)
+- Android Studio 多渠道打包
 
 
 **遇到的问题**
 - [解决ScrollView嵌套ListView问题](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/%E8%A7%A3%E5%86%B3ScrollView%E5%B5%8C%E5%A5%97ListView%E9%97%AE%E9%A2%98.md)
+- [找不到 constraint-layout:1.0.1-xxx](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/%E6%89%BE%E4%B8%8D%E5%88%B0%20constraint%20layout.md)
