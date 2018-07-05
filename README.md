@@ -33,7 +33,6 @@
 - 网络存储
 
 **6. Android进程间通信IPC**
-
 - Intent / Bundle传递数据
 - 文件共享
 - AIDL
@@ -48,7 +47,7 @@
 - Fresco
 
 **8. 异步**
-- [Android Handler解析](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Handler/Android%20Handler%E8%A7%A3%E6%9E%90.md)
+- [Handler](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Handler/Android%20Handler%E8%A7%A3%E6%9E%90.md)
 - RxJava
 - AnsycTask
 
