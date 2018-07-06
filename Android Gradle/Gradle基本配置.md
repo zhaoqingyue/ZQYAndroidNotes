@@ -2,7 +2,7 @@
 
 在Android Studio新建一个项目后，目录结构如下图所示：
 
-![image](http://note.youdao.com/favicon.ico)
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/img/gradle0.png)
 
 **1. app/build.gradle**
 

@@ -33,7 +33,7 @@
 - 网络存储
 
 **6. Android进程间通信IPC**
-- Intent / Bundle传递数据
+- Intent / Bundle传递数据(Activity、Service、BroadcastReceiver)
 - 文件共享
 - AIDL
 - Messenger
@@ -75,6 +75,14 @@
 - [Android Studio gradle的buildTypes配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android_Studio%E4%B9%8Bgradle%E7%9A%84buildTypes%E9%85%8D%E7%BD%AE.md)
 - [Android Studio 多渠道打包](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android%20Studio%E5%A4%9A%E6%B8%A0%E9%81%93%E6%89%93%E5%8C%85.md)
 
+**Android Gradle**
+- [build.gradle文件](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/build.gradle%E6%96%87%E4%BB%B6.md)
+- [Gradle基本配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E5%9F%BA%E6%9C%AC%E9%85%8D%E7%BD%AE.md)
+- [Gradle全局设置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E5%85%A8%E5%B1%80%E8%AE%BE%E7%BD%AE.md)
+- [Gradle依赖管理](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E4%BE%9D%E8%B5%96%E7%AE%A1%E7%90%86.md)
+- [Gradle多渠道打包](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E5%A4%9A%E6%B8%A0%E9%81%93%E6%89%93%E5%8C%85.md)
+- [Gradle签名配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E7%AD%BE%E5%90%8D%E9%85%8D%E7%BD%AE.md)
+- [Gradle BuildConfig](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%20BuildConfig.md)
 
 **遇到的问题**
 - [解决ScrollView嵌套ListView问题](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/%E8%A7%A3%E5%86%B3ScrollView%E5%B5%8C%E5%A5%97ListView%E9%97%AE%E9%A2%98.md)

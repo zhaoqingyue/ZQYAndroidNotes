@@ -221,4 +221,4 @@ dependencies {
 
 
 
-签名配置，见[Gradle签名配置]()。
+签名配置，见[Gradle签名配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E7%AD%BE%E5%90%8D%E9%85%8D%E7%BD%AE.md)。

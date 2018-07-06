@@ -16,4 +16,4 @@ buildConfigField "String", "SERVER_HEADER", "http://xxx.xxx/"
 String SERVER_URL = BuildConfig.API_SERVER_URL;
 ```
 
-具体见[Gradle签名配置](http://note.youdao.com/)
+具体见[Gradle签名配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E7%AD%BE%E5%90%8D%E9%85%8D%E7%BD%AE.md)

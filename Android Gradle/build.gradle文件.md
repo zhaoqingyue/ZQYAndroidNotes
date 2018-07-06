@@ -14,7 +14,7 @@
 
 defaultConfig设置：
 
-![image](http://note.youdao.com/favicon.ico)
+![image](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/img/gradle1.png)
 
 - compiledSdkVersion：将要编译的目标Android版本，默认SDK已安装的最新版本
 
