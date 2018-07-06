@@ -72,8 +72,6 @@
 
 **Android Studio**
 - [Android Studio 快捷键-Win版本](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android%20Studio%20%E5%BF%AB%E6%8D%B7%E9%94%AE-Win%E7%89%88%E6%9C%AC.md)
-- [Android Studio gradle的buildTypes配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android_Studio%E4%B9%8Bgradle%E7%9A%84buildTypes%E9%85%8D%E7%BD%AE.md)
-- [Android Studio 多渠道打包](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android%20Studio%E5%A4%9A%E6%B8%A0%E9%81%93%E6%89%93%E5%8C%85.md)
 
 **Android Gradle**
 - [build.gradle文件](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/build.gradle%E6%96%87%E4%BB%B6.md)
