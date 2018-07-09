@@ -70,6 +70,16 @@
 - [RxPermissions](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxPermissions.md)
 - [RxLifecyle](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxLifecyle.md)
 
+**12. 命令行**
+- [Android Git 命令](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%91%BD%E4%BB%A4%E8%A1%8C/Android%20Git%20%E5%91%BD%E4%BB%A4.md)
+- [Android adb 命令](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%91%BD%E4%BB%A4%E8%A1%8C/Android%20adb%20%E5%91%BD%E4%BB%A4.md)
+
+**Android 动画**
+- [Android 动画](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E5%8A%A8%E7%94%BB/Android%20%E5%8A%A8%E7%94%BB.md)
+- [Android 补间动画 Tween Animation](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E5%8A%A8%E7%94%BB/Android%20%E8%A1%A5%E9%97%B4%E5%8A%A8%E7%94%BB%20Tween%20Animation.md)
+- [Android 逐帧动画 Frame Animation](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E5%8A%A8%E7%94%BB/Android%20%E9%80%90%E5%B8%A7%E5%8A%A8%E7%94%BB%20Frame%20Animation.md)
+- [Android 属性动画 Property Animation](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E5%8A%A8%E7%94%BB/Android%20%E5%B1%9E%E6%80%A7%E5%8A%A8%E7%94%BB%20Property%20Animation.md)
+
 **Android Studio**
 - [Android Studio 快捷键-Win版本](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Studio/Android%20Studio%20%E5%BF%AB%E6%8D%B7%E9%94%AE-Win%E7%89%88%E6%9C%AC.md)
 
