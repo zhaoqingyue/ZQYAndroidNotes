@@ -1,10 +1,25 @@
 ### EventBus
 
-----EventBus是一个消息总线，以观察者模式实现，用于简化程序的组件、线程通信，可以轻易切换线程、开辟线程。
+----EventBus是一个发布/订阅（publish/subscribe）事件总线。
+
+**功能**
+
+----替代Intent、Handler、BroadcastReceiver在Fragment、Activity、Service之间传递消息。
+
+**元素**
+- Event：事件
+- Subscriber：事件订阅者，接收特定的事件
+- Publisher：事件发布者，通知 Subscriber 有事件发生
 
 **1. 使用EventBus3.0流程**
 
-**1.1 定义事件**
+**1.1 添加依赖**
+
+```
+compile 'org.greenrobot:eventbus:3.0.0'
+```
+
+**1.2 定义事件**
 
 ```
 public class MessageEvent {
@@ -17,7 +32,7 @@ public class MessageEvent {
 }
 ```
 
-**1.2 准备订阅者**
+**1.3 准备订阅者**
 
 ```
 // This method will be called when a MessageEvent is posted 
@@ -36,17 +51,19 @@ public void handleSomethingElse(SomeOtherEvent event){
 @Override
 public void onStart() {
     super.onStart();
+    // 注册事件接收者
     EventBus.getDefault().register(this);
 }
 
 @Override
 public void onStop() {
+    // 注销事件接收
     EventBus.getDefault().unregister(this);
     super.onStop();
 }
 ```
 
-**1.3 发送事件**
+**1.4 发送事件**
 
 ```
 EventBus.getDefault().post(new MessageEvent("Hello everyone!"));
@@ -101,4 +118,14 @@ public void onMessage(MessageEvent event) {
 public void onMessage(MessageEvent event) { 
     backend.send(event.message);
 }
+```
+
+**3. proguard 混淆处理**
+
+```
+#EventBus
+ -keepclassmembers class ** {
+    public void onEvent*(**);
+    void onEvent*(**);
+ }
 ```
