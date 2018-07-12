@@ -32,18 +32,21 @@
 
 **（1）添加Retrofit库的依赖；**
 
-A. 在build.gradle添加Retrofit库的依赖：
-
+- A. 在build.gradle添加Retrofit库的依赖：
 ```
 dependencies {
-    // Retrofit库
     compile 'com.squareup.retrofit2:retrofit:2.0.2'
-  }
+}
 ```
-B. 在AndroidManifest.xml添加网络权限：
 
+- B. 在AndroidManifest.xml添加网络权限：
 ```
 <uses-permission android:name="android.permission.INTERNET"/>
+```
+
+- C. 添加响应转换器依赖：
+```
+compile 'com.squareup.retrofit2:converter-gson:2.1.0'
 ```
 
 **（2）创建接收服务器返回的数据类；**
@@ -130,19 +133,10 @@ Response<Reception> response = call.execute();
 response.body().show();
 ```
 
-### 6. 注解类型
+### 6. 注解
 
-![image](https://github.com/zhaoqingyue/ZQYRetrofitDemo/blob/master/img/2.png)
+- 网络请求方法
+- 网络请求参数
+- 标记
 
-**（1）网络请求方法**
-
-![image](https://github.com/zhaoqingyue/ZQYRetrofitDemo/blob/master/img/3.png)
-
-**（2）标记**
-
-![image](https://github.com/zhaoqingyue/ZQYRetrofitDemo/blob/master/img/4.png)
-
-**（3）网络请求参数**
-
-![image](https://github.com/zhaoqingyue/ZQYRetrofitDemo/blob/master/img/5.png)
 
