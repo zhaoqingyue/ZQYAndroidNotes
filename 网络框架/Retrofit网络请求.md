@@ -135,8 +135,8 @@ response.body().show();
 
 ### 6. 注解
 
-- 网络请求方法
-- 网络请求参数
-- 标记
+- [网络请求方法](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6/Retrofit%E6%B3%A8%E8%A7%A3-%E8%AF%B7%E6%B1%82%E6%96%B9%E6%B3%95.md)
+- [网络请求参数](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6/Retrofit%E6%B3%A8%E8%A7%A3-%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0.md)
+- [标记](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6/Retrofit%E6%B3%A8%E8%A7%A3-%E6%A0%87%E8%AE%B0.md)
 
 

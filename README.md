@@ -19,7 +19,7 @@
 - Android Async Http
 - Volley
 - OkHttp
-- [Retrofit](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6/Android_Retrofit%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82.md)
+- [Retrofit](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E7%BD%91%E7%BB%9C%E6%A1%86%E6%9E%B6/Retrofit%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82.md)
 
 **4. 数据库**
 - OrmLite
