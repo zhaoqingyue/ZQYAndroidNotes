@@ -2,7 +2,7 @@
 
 ----Square出品
 
-### 1. 介绍：
+### 1. 介绍
 
 ----Retrofit是一个RESTful的网络请求框架（基于OkHttp），该网络请求的工作本质是OkHttp完成，而Retrofit仅负责网络请求接口的封装。
 
@@ -11,23 +11,23 @@
 - App应用程序通过Retrofit请求网络，实际上是使用Retrofit接口层封装请求参数、Header、url等信息，然后由OkHttp完成后续的请求操作；
 - 在服务端返回数据之后，OkHttp将原始的结果交给Retrofit，Retrofit根据用户的需求对结果进行解析。
 
-### 3. 功能：
+### 2. 功能
 - 基于OkHttp & 遵循RESTful API设计风格；
 - 通过注解配置网络请求参数；
 - 支持同步 & 异步网络请求；
 - 支持多种数据的解析 & 序列化格式（Gson、Json、XML）
 - 提供对RxJava支持。
 
-### 4. 优点：
+### 3. 优点
 - 功能强大：支持同步 & 异步、支持支持多种数据的解析 & 序列化格式、支持RxJava；
 - 简洁易用：通过注解配置网络请求参数、采用大量设计模式简化使用；
 - 可拓展性好：功能模块高度封装、解耦彻底，如自定义Converters等。
 
-### 5. 应用场景：
+### 4. 应用场景
 
 ----任何网络请求的需求。
 
-### 6. 使用介绍：
+### 5. 使用介绍
 ----使用Retrofit共有7步。
 
 **（1）添加Retrofit库的依赖；**
@@ -129,4 +129,20 @@ Response<Reception> response = call.execute();
 // 对返回数据进行处理
 response.body().show();
 ```
+
+### 6. 注解类型
+
+![image](https://github.com/zhaoqingyue/ZQYRetrofitDemo/blob/master/img/2.png)
+
+**（1）网络请求方法**
+
+![image](https://github.com/zhaoqingyue/ZQYRetrofitDemo/blob/master/img/3.png)
+
+**（2）标记**
+
+![image](https://github.com/zhaoqingyue/ZQYRetrofitDemo/blob/master/img/4.png)
+
+**（3）网络请求参数**
+
+![image](https://github.com/zhaoqingyue/ZQYRetrofitDemo/blob/master/img/5.png)
 
