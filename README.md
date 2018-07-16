@@ -34,11 +34,11 @@
 
 **6. Android多线程**
 
-- 继承Thread类
-- 实现Runnable接口
+- [继承Thread类](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Android%20%E5%A4%9A%E7%BA%BF%E7%A8%8B-%E7%BB%A7%E6%89%BFThread%E7%B1%BB.md)
+- [实现Runnable接口](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Android%20%E5%A4%9A%E7%BA%BF%E7%A8%8B-%E5%AE%9E%E7%8E%B0Runnable%E6%8E%A5%E5%8F%A3.md)
 - Handler
-- AsyncTask
-- HandlerThread
+- [AsyncTask](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Android%20%E5%A4%9A%E7%BA%BF%E7%A8%8B-AsyncTask.md)
+- [HandlerThread](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%A4%9A%E7%BA%BF%E7%A8%8B/Android%20%E5%A4%9A%E7%BA%BF%E7%A8%8B-HandlerThread.md)
 
 **7. Android进程间通信IPC**
 - Intent / Bundle传递数据(Activity、Service、BroadcastReceiver)
