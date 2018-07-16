@@ -32,7 +32,15 @@
 - [文件存储](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E6%95%B0%E6%8D%AE%E5%AD%98%E5%82%A8/Android%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8.md)
 - 网络存储
 
-**6. Android进程间通信IPC**
+**6. Android多线程**
+
+- 继承Thread类
+- 实现Runnable接口
+- Handler
+- AsyncTask
+- HandlerThread
+
+**7. Android进程间通信IPC**
 - Intent / Bundle传递数据(Activity、Service、BroadcastReceiver)
 - 文件共享
 - AIDL
@@ -40,28 +48,28 @@
 - ContentProvider
 - Socket
 
-**7. Android主流图片加载库（[介绍](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93.md)）**
+**8. Android主流图片加载库（[介绍](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93.md)）**
 - [Universal-Image-Loader](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_UIL%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
 - [Picasso](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_Picasso%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
 - [Glide](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD%E5%BA%93/Android_Glide%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD.md)
 - Fresco
 
-**8. 异步**
+**9. 异步**
 - [Handler](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Handler/Android%20Handler%E8%A7%A3%E6%9E%90.md)
 - RxJava
 - AnsycTask
 
-**9. 依赖注入**
+**10. 依赖注入**
 - ButterKnife
 - Dagger2
 - Android Anotations
 - RoboGuice
 
-**10. 事件总线**
+**11. 事件总线**
 - [EventBus](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E4%BA%8B%E4%BB%B6%E6%80%BB%E7%BA%BF/EventBus.md)
 - Otto
 
-**11. 响应式编程**
+**12. 响应式编程**
 - [RxBus](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxBus.md)
 - [RxJava](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxJava.md)
 - [RxJava2](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxJava2.md)
@@ -70,7 +78,7 @@
 - [RxPermissions](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxPermissions.md)
 - [RxLifecyle](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxLifecyle.md)
 
-**12. 命令行**
+**13. 命令行**
 - [Android Git 命令](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%91%BD%E4%BB%A4%E8%A1%8C/Android%20Git%20%E5%91%BD%E4%BB%A4.md)
 - [Android adb 命令](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%91%BD%E4%BB%A4%E8%A1%8C/Android%20adb%20%E5%91%BD%E4%BB%A4.md)
 
