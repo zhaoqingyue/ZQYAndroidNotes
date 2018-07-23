@@ -15,6 +15,7 @@
 **2. Android控件**
 - [Webview](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E6%8E%A7%E4%BB%B6/Android_Webview.md)
 - [FloatingActionButton](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E6%8E%A7%E4%BB%B6/FloatingActionButton.md)
+- [AutoCompleteTextView & MultiAutoCompleteTextView](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E6%8E%A7%E4%BB%B6/AutoCompleteTextView%20%26%20MultiAutoCompleteTextView.md)
 
 **3. 网络请求**
 - Android Async Http
@@ -100,6 +101,12 @@
 - [Gradle多渠道打包](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E5%A4%9A%E6%B8%A0%E9%81%93%E6%89%93%E5%8C%85.md)
 - [Gradle签名配置](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%E7%AD%BE%E5%90%8D%E9%85%8D%E7%BD%AE.md)
 - [Gradle BuildConfig](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20Gradle/Gradle%20BuildConfig.md)
+
+**热修复**
+- Tinker-微信
+- AndFix-阿里
+- QZone-QQ空间
+- Robust-美团
 
 **遇到的问题**
 - [解决ScrollView嵌套ListView问题](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/%E8%A7%A3%E5%86%B3ScrollView%E5%B5%8C%E5%A5%97ListView%E9%97%AE%E9%A2%98.md)
