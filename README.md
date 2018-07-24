@@ -81,8 +81,23 @@
 - [RxLifecyle](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/RxJava%E7%B3%BB%E5%88%97/RxLifecyle.md)
 
 **13. 命令行**
+- [Git操作](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%91%BD%E4%BB%A4%E8%A1%8C/Git%E6%93%8D%E4%BD%9C.md)
 - [Android Git 命令](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%91%BD%E4%BB%A4%E8%A1%8C/Android%20Git%20%E5%91%BD%E4%BB%A4.md)
 - [Android adb 命令](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%91%BD%E4%BB%A4%E8%A1%8C/Android%20adb%20%E5%91%BD%E4%BB%A4.md)
+
+**Android 事件分发**
+- Android 事件分发机制
+- Activity 事件分发机制
+- ViewGroup 事件分发机制
+- View 事件分发机制
+
+**Android 自定义View**
+- [自定义View](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E8%87%AA%E5%AE%9A%E4%B9%89View/%E8%87%AA%E5%AE%9A%E4%B9%89View.md)
+- [自定义View-自定义属性](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E8%87%AA%E5%AE%9A%E4%B9%89View/%E8%87%AA%E5%AE%9A%E4%B9%89View-%E8%87%AA%E5%AE%9A%E4%B9%89%E5%B1%9E%E6%80%A7.md)
+- [自定义View-Canvas](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E8%87%AA%E5%AE%9A%E4%B9%89View/%E8%87%AA%E5%AE%9A%E4%B9%89View-Canvas.md)
+- [自定义View-Measure](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E8%87%AA%E5%AE%9A%E4%B9%89View/%E8%87%AA%E5%AE%9A%E4%B9%89View-Measure.md)
+- [自定义View-Layout](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E8%87%AA%E5%AE%9A%E4%B9%89View/%E8%87%AA%E5%AE%9A%E4%B9%89View-Layout.md)
+- [自定义View-Draw](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E8%87%AA%E5%AE%9A%E4%B9%89View/%E8%87%AA%E5%AE%9A%E4%B9%89View-Draw.md)
 
 **Android 动画**
 - [Android 动画](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E5%8A%A8%E7%94%BB/Android%20%E5%8A%A8%E7%94%BB.md)
