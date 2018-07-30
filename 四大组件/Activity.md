@@ -91,7 +91,7 @@
 - LinearLayout下面有两个FrameLayout，分别是TitleView和CustomView
 - setContentView()加载的布局放在CustomView上
 
-[常用系统Activity](https://note.youdao.com/)
+[常用系统Activity](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%9B%9B%E5%A4%A7%E7%BB%84%E4%BB%B6/%E5%B8%B8%E7%94%A8%E7%B3%BB%E7%BB%9FActivity.md)
 
 
 
