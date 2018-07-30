@@ -89,10 +89,10 @@
 - [Android adb 命令](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/%E5%91%BD%E4%BB%A4%E8%A1%8C/Android%20adb%20%E5%91%BD%E4%BB%A4.md)
 
 **Android 事件分发**
-- Android 事件分发机制
-- Activity 事件分发机制
-- ViewGroup 事件分发机制
-- View 事件分发机制
+- [Android 事件分发机制](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/Android%20%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E6%9C%BA%E5%88%B6.md)
+- [Activity 事件分发机制](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/Activity%20%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E6%9C%BA%E5%88%B6.md)
+- [ViewGroup 事件分发机制](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/ViewGroup%20%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E6%9C%BA%E5%88%B6.md)
+- [View 事件分发机制](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91/View%20%E4%BA%8B%E4%BB%B6%E5%88%86%E5%8F%91%E6%9C%BA%E5%88%B6.md)
 
 **Android 自定义View**
 - [自定义View](https://github.com/zhaoqingyue/ZQYAndroidNotes/blob/master/Android%20%E8%87%AA%E5%AE%9A%E4%B9%89View/%E8%87%AA%E5%AE%9A%E4%B9%89View.md)
