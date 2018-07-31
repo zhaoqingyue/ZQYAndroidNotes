@@ -142,8 +142,7 @@ intent.putExtra("output", Uri.parse("file:///mnt/sdcard/temp"));
 startActivityForResult(intent, 0);
 ```
 
-
-**11. 打开Google Market **
+**11. 打开Google Market**
 ```
 // 打开Google Market直接进入该程序的详细页面
 Uri uri = Uri.parse("market://details?id=" + "com.demo.app");

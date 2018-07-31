@@ -40,7 +40,34 @@ public class MainFragment extends Fragment {
 - 步骤4：调用commit()方法提交事务
 ```
 MainFragment fragment = new MainFragment();
-getFragmentManager().beginTransaction().replace(R.id.LinearLayout, fragment).commit();
+getFragmentManager().beginTransaction().replace(R.id.fragment_container, fragment).commit();
+```
+
+**add & replace 区别**
+
+> 每次add和replace都要走一遍fragment的生命周期
+
+- add 
+
+----添加进来的fragment都是可见的（visible），后添加的fragment会展示在先添加的fragment上面
+
+```
+FragmentTransaction transaction = getFragmentManager().beginTransaction();
+transaction.add(R.id.fragment_container, oneFragment).hide(twoFragment).commit();
+
+// 参数说明
+// 第一个参数是容器id， 第二个参数是要添加的fragment
+```
+    - 不允许添加同一个fragment实例
+    - add和hide或者是remove使用
+
+- replace
+
+----替换会把容器中的所有内容全都替换掉
+
+```
+FragmentTransaction transaction = getFragmentManager().beginTransaction();
+transaction.replace(R.id.fragment_container, oneFragment).commit();
 ```
 
 **3. Fragment & Activity 交互**
