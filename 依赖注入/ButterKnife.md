@@ -104,9 +104,25 @@ public class MyAdapter extends BaseAdapter {
 - 在Adapter的ViewHolder中使用
 - 写一个ViewHolder构造方法，在new ViewHolder的时候把view传递进去
 
-**3. 基本使用**
+**3. 绑定注解**
 
 ----不能用private or static修饰
+
+**共11种**
+
+名称 | 解析
+---|---
+@BindView | 绑定一个view，id为一个view变量
+@BindViews | 绑定多个view，id为一个view的list变量
+@BindString | 绑定一个String，id为一个String变量
+@BindArray | 绑定string里面array数组
+@BindBool | 绑定boolean
+@BindInt | 绑定int
+@BindFloat | 绑定float
+@BindBitmap | 绑定图片资源为Bitmap
+@BindDrawable | 绑定Drawable
+@BindColor | 绑定Color
+@BindDimen | 绑定Dimen
 
 **3.1 绑定View**
 
@@ -162,9 +178,6 @@ String [] citys;
 
 button.setText(citys[0]);  
 ```
-- @BindBool：绑定boolean值
-- @BindInt：绑定int
-- @BindFloat：绑定float
 - @BindBitmap()：绑定Bitmap资源
 ```
 @BindView(R.id.imageView) 
@@ -200,7 +213,24 @@ button.setTextColor(black);
 int mBorderWidth;
 ```
 
-**3.3 事件绑定**
+**4. 事件注解**
+
+**共12种**
+
+名称 | 作用
+---|---
+@OnClick | 点击事件
+@OnLongClick | 长按事件
+@OnItemClick | item被点击
+@OnItemLongClick | item长按
+@OnItemSelected | item被选择事件
+@OnTextChanged | EditText里面的文本变化事件
+@OnFocusChange | 焦点改变
+@OnCheckedChanged | 选中，取消选中
+@OnPageChange | 页面改变事件
+@OnTouch | 触摸事件
+@OnEditorAction | 软键盘的功能键
+@Optional | 选择性注入
 
 - @OnClick() & @OnLongClick()：绑定点击事件
 ```
@@ -259,15 +289,6 @@ public void OnCheckedChangeListener(CompoundButton view, boolean ischanged ){
         }  
     }  
 ```
-
-- @OnEditorAction：软键盘的功能键
-- @OnFocusChange：焦点改变
-- @OnItemClick：Item被点击(如果item里面有Button，设置属性focusable为false)
-- @OnItemLongClick：item长按(返回真可以拦截onItemClick)
-- @OnItemSelected：item被选择事件
-- @OnPageChange：页面改变事件
-- @OnTextChanged：EditText里面的文本变化事件
-- @OnTouch：触摸事件
 
 **4. 代码混淆**
 
