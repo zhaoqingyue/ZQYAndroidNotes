@@ -1,0 +1,56 @@
+解决Android 7.0(N)以上FileUriExposedException
+
+开发中碰到的问题：android.os.FileUriExposedException: file:///storage/emulated/0/Download/.apk exposed beyond app through Intent.getData()
+解决方案：
+
+1. 在AndroidManifest.xml中添加如下代码
+<provider
+    android:name="android.support.v4.content.FileProvider"
+    android:authorities="app包名.fileProvider"
+    android:grantUriPermissions="true"
+    android:exported="false">
+    <meta-data
+         android:name="android.support.FILE_PROVIDER_PATHS"
+         android:resource="@xml/file_paths"/>
+</provider>
+
+注意：
+authorities：app的包名.fileProvider
+grantUriPermissions：必须是true，表示授予 URI 临时访问权限
+exported：必须是false
+resource：中的@xml/file_paths是我们接下来要添加的文件
+
+2. 在res目录下新建一个xml文件夹，并且新建一个file_paths的xml文件
+
+3. 打开file_paths.xml文件添加如下内容
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path path="Android/data/app包名/" name="files_root"/>
+    <external-path path="." name="external_storage_root"/>
+</paths>
+
+path：需要临时授权访问的路径（.代表所有路径）
+name：就是你给这个访问路径起个名字
+
+4. 修改代码适配Android N
+public static void openFile(Context context, String path) {
+    if (context == null || path.isEmpty())
+        return;
+
+    Intent intent = new Intent();
+    File file = new File(path);
+    // Android N及以上做判断
+    if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+        // 然后添加flags，表明要被授予什么样的临时权限
+        Uri contentUri = FileProvider.getUriForFile(context,"app包名.fileProvider", file);
+        intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+        intent.setDataAndType(contentUri,getMIMEType(file));
+    } else{
+        intent.setDataAndType(Uri.fromFile(file), getMIMEType(file));
+    }
+    intent.setAction(Intent.ACTION_VIEW);                       
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);           
+    context.startActivity(intent);
+}
+
+  
