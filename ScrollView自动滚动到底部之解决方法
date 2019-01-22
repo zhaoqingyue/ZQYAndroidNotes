@@ -1,0 +1,29 @@
+开发中遇到了这样的一个问题，界面最外层是ScrollView，然后里面嵌套了一个ListView，还有其它可以获取焦点的View，每次打开界面都会自动滚动到最底部。
+  
+解决方法：
+1. 获取ScrollView里面一个上层任意view，然后调用如下方法：
+view.setFocusable(true);
+view.setFocusableInTouchMode(true);
+view.requestFocus();
+
+2. 将scrollview包裹的内容设置上以下两个属性：
+android:focusable="true"  
+android:focusableInTouchMode="true"
+
+具体使用如下：
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+        
+</ScrollView
+
+
+  
