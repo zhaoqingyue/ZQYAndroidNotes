@@ -1,0 +1,3 @@
+报错日志：java.lang.NullPointerException: Attempt to invoke virtual method 'int android.view.View.getImportantForAccessibility()' on a null object reference
+
+该错误多为ListView或GridView的Adapter中，getView方法返回null的结果。
