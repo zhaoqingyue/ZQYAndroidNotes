@@ -1,0 +1,5 @@
+问题：设置ScrollView 里面的布局高度为match_parent不起作用
+
+解决方案：
+在scrollview里面添加以下属性
+android:fillViewport="true"
