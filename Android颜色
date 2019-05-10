@@ -1,2 +1,79 @@
 1. 定义颜色
 (1) Android系统封装好的Color类中的常量
+  public static final int BLACK = 0xFF000000;
+  public static final int DKGRAY = 0xFF444444;
+  public static final int GRAY = 0xFF888888;
+  public static final int LTGRAY = 0xFFCCCCCC;
+  public static final int WHITE = 0xFFFFFFFF;
+  public static final int RED = 0xFFFF0000;
+  public static final int GREEN = 0xFF00FF00;
+  public static final int BLUE = 0xFF0000FF;
+  public static final int YELLOW = 0xFFFFFF00;
+  public static final int CYAN = 0xFF00FFFF;
+  public static final int MAGENTA = 0xFFFF00FF;
+  public static final int TRANSPARENT = 00000000;
+  
+(2) 使用0x开头的颜色值
+  int color = 0xff00ff00;
+  
+(3) 使用Color类的静态方法argb创建颜色
+  int color = Color.argb(127, 255, 0, 255);
+  
+(4) 把16进制颜色值转换为int类型数值
+  int color = Color.parseColor("#00CCFF");
+  
+(5) 使用xml资源文件来表示颜色 (.../res/values/colors.xml)
+  <?xml version="1.0" encoding="utf-8"?>
+  <resources> 
+    <color name="colorPrimary">#3F51B5</color> 
+    <color name="colorPrimaryDark">#303F9F</color> 
+    <color name="colorAccent">#FF4081</color> 
+  </resources>
+
+2. 颜色设置
+（1）java代码中：
+  textView.setTextColor(Color.RED);
+  textView.setTextColor(0xffff0000);
+  textView.setTextColor(Color.argb(127, 255, 0, 255));
+  textView.setTextColor(Color.parseColor("#00CCFF"))
+  textView.setTextColor(getResources().getColor(R.color.colorPrimary));//已过时
+  textView.setTextColor(ContextCompat.getColor(this, R.color.colorPrimary));//替换方法
+
+（2）xml布局中：
+  android:textColor="@color/text_color_white"          
+  android:background="@drawable/full_background" 
+ 
+3. 颜色转换
+（1）透明度百分比和十六进制对应关系计算方法：
+  public void toARGB() {
+        System.out.println("透明度 | 十六进制");
+        System.out.println("---- | ----");
+        for (double i = 1; i >= 0; i -= 0.01) {
+            i = Math.round(i * 100) / 100.0d;
+            int alpha = (int) Math.round(i * 255);
+            String hex = Integer.toHexString(alpha).toUpperCase();
+            if (hex.length() == 1) hex = "0" + hex;
+            int percent = (int) (i * 100);
+            System.out.println(String.format("%d%% | %s", percent, hex));
+        }
+    }
+    
+（2）16进制转GRB颜色值方法：
+  public static void toRGB(String hex) {
+        int color = Integer.parseInt(hex.replace("#", ""), 16);
+        int red = (color & 0xff0000) >> 16;
+        int green = (color & 0x00ff00) >> 8;
+        int blue = (color & 0x0000ff);     
+        System.out.println("red="+red+"--green="+green+"--blue="+blue);  
+  }
+
+（3）GRB转16进制颜色值方法：
+   public static void toHex(int red, int green, int blue){
+        String hr = Integer.toHexString(red);
+        String hg = Integer.toHexString(green);
+        String hb = Integer.toHexString(blue);
+        System.out.println("#"+hr + hg + hb);      
+   }
+  
+  
+  
